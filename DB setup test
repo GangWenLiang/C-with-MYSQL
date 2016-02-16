@@ -1,0 +1,21 @@
+DB setup test
+mysql -u root -p
+password
+
+create database test;
+use test;
+
+CREATE TABLE  `test`.`User` (
+`ID` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`Date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+`Name` VARCHAR( 128 ) NOT NULL
+) ENGINE = MYISAM ;
+
+
+INSERT INTO `test`.`User` 
+(`Name`) 
+VALUES 
+('John'), 
+('Amy'),
+('Joey'),
+('Frank');
