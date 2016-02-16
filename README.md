@@ -1,5 +1,5 @@
 # C-with-MYSQL
-this is a simple repo with C connecting to mysql database
+this is a simple repo with C connecting to mysql databas
 
 This is using linux Ubuntu
 1) sudo apt-get update
