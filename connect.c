@@ -4,7 +4,7 @@
 
 static char *host = "localhost";
 static char *user = "root";
-static char *pass = "password";
+static char *pass = "password";//change to yourpassword
 static char *dbname = "test";
 static int port = 3306;//can find using terminal nano /ect/mysql/my.cnf
 static char *unix_socket = NULL;//connection type
