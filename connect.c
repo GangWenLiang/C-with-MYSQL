@@ -29,3 +29,7 @@ int main()
 //to compile use :
 //	gcc $(mysql_config --cflags) $(mysql_config --libs) connect.c -o output
 //  	./output
+//	
+//	if error try compile:
+//	 gcc -o test connect.c `mysql_config --cflags --libs`
+//
